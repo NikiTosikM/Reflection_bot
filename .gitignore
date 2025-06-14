@@ -1,0 +1,9 @@
+venv
+
+.env 
+
+.vscode
+
+src/__pycache__
+src/handlers/__pycache__
+src/models/__pycache__
