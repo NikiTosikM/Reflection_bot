@@ -45,7 +45,7 @@ ya_disk = YaDisk(
 scheduler.add_job(
         ya_disk.send_docx_document, 
         'interval', 
-        seconds = 30
+        seconds = 30 
     )
 
 @app.post("/")
